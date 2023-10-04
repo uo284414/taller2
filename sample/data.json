@@ -1,0 +1,79 @@
+{
+    "meta": {
+        "app_id": "org.example.same.identifier.manifest.package",
+        "app_title": "Llanes costera",
+        "version": 1,
+        "updated": "2023-10-04",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
+        "marketplace_url": ""
+    },
+    "content": {
+        "en": {
+            "app": {
+                "theme": {
+                    "brand": "#B11623",
+                    "complementary": "#FAFAFA"
+                },
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
+                "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
+                "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+            },
+            "pois": [{
+                    "id": "uniqueID",
+                    "lat": "50.8789629",
+                    "lon": "4.7013242",
+                    "type": "playa",
+                    "name": "Playa del sablon",
+                    "images": [
+                        "https://upload.wikimedia.org/wikipedia/commons/a/a2/El-sablon-llanes-pixabay.jpg",
+                        "https://guiadeasturias.com/wp-content/uploads/2017/08/PlayaSablon1.jpg"
+                    ],
+                    "description": "Playa central de Llanes",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://es.wikipedia.org/wiki/Playa_de_El_Sabl%C3%B3n",
+                        "https://guiadeasturias.com/lugar/playa-sablon-la-playa-urbana-llanes/"
+                    ]
+                },
+                {
+                    "id": "uniqueID-2",
+                    "lat": "50.9",
+                    "lon": "4.8",
+                    "type": "playa",
+                    "name": "Playa de toro",
+                    "images": [
+                        "https://llanesnet.com/wp-content/uploads/2018/02/playa-de-toro.jpg",
+                        "https://www.turismoasturias.es/documents/39908/84a4f241-f0d7-459f-07ae-3f58305d4203?t=1674171435537"
+                    ],
+                    "description": "One-paragraph description",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://www.llanes.es/es/content/disfruta-playas/playa-de-poo",
+                        "https://media-cdn.tripadvisor.com/media/photo-s/12/2a/ee/ba/playa-de-toro-llanes.jpg"
+                    ]
+                },
+                {
+                    "id": "uniqueID-3",
+                    "lat": "43.429062",
+                    "lon": "-4.784051",
+                    "type": "playa",
+                    "name": "Playa de poo",
+                    "images": [
+                        "https://www.llanes.es/sites/llanes/files/playa_de_poo.jpg",
+                        "https://www.turismoasturias.es/documents/39908/84a4f241-f0d7-459f-07ae-3f58305d4203?t=1674171435537"
+                    ],
+                    "description": "Playa de poo situada cerca del pueblo de Llanes",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://www.llanes.es/es/content/disfruta-playas/playa-de-poo",
+                        "https://queverenasturias.es/visitar/playa-de-poo-llanes/"
+                    ]
+                }
+            ]
+        }
+    }
+}
