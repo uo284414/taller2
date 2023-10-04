@@ -24,8 +24,8 @@
             },
             "pois": [{
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
+                    "lat": "43.422723",
+                    "lon": "-4.752945",
                     "type": "playa",
                     "name": "Playa del sablon",
                     "images": [
@@ -41,15 +41,32 @@
                 },
                 {
                     "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
+                    "lat": "43.416569",
+                    "lon": "-4.743430",
                     "type": "playa",
                     "name": "Playa de toro",
+                    "images": [
+                        "https://llanesnet.com/wp-content/uploads/2018/02/playa-de-toro.jpg",
+                        "https://www.turismoasturias.es/documents/39908/84a4f241-f0d7-459f-07ae-3f58305d4203?t=1674171435537"
+                    ],
+                    "description": "Playa de llanes mas a las afueras",
+                    "more": "More description, if you want",
+                    "urls": [
+                        "https://www.elcomercio.es/asturias/playas/201602/25/playa-toro-20160225164845.html",
+                        "https://www.tripadvisor.es/HotelsNear-g608994-d2232460-Playa_de_Toro-Llanes_Asturias.html"
+                    ]
+                },
+                {
+                    "id": "uniqueID-3",
+                    "lat": "43.429062",
+                    "lon": "-4.784051",
+                    "type": "playa",
+                    "name": "Playa de poo",
                     "images": [
                         "https://www.llanes.es/sites/llanes/files/playa_de_poo.jpg",
                         "https://www.turismoasturias.es/documents/39908/84a4f241-f0d7-459f-07ae-3f58305d4203?t=1674171435537"
                     ],
-                    "description": "One-paragraph description",
+                    "description": "Playa de poo situada cerca del pueblo de Llanes",
                     "more": "More description, if you want",
                     "urls": [
                         "https://www.llanes.es/es/content/disfruta-playas/playa-de-poo",
